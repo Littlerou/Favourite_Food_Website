@@ -10,3 +10,24 @@
 .color-pink{
     background-color :#fdd6e7;
 }
+
+img {
+    float: left;
+    width:  200px;
+    height: 200px;
+    
+}
+
+@media only screen and (max-width:400px) {
+    img{
+        float: left;
+        width:  100px;
+        height: 100px;;
+    }
+
+    a{
+        font-size: 10px;
+    }
+
+    
+}
